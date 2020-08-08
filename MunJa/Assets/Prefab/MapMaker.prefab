@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1144819955184177068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1144819955184177106}
+  - component: {fileID: 1144819955184177069}
+  - component: {fileID: 1144819955184177107}
+  m_Layer: 0
+  m_Name: MapMaker
+  m_TagString: MapMaker
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1144819955184177106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144819955184177068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144819955184177069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144819955184177068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c58f8e45cad2747ada95b435c567ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  step: 1
+  mapNum: 0
+  map:
+  - {fileID: 2800000, guid: 5eb591734d799834eb0e45caf4f9f897, type: 3}
+  - {fileID: 2800000, guid: 73b1c051a4f8f6e4b811f8d17c1bf5fa, type: 3}
+  - {fileID: 2800000, guid: 2f4f123df68ee95438d49693d64faa16, type: 3}
+  - {fileID: 2800000, guid: 1a6f42c1e6b25fe488d9c64e2eb0ee37, type: 3}
+  - {fileID: 2800000, guid: 72fc7657ab19317499220c18117f250b, type: 3}
+  - {fileID: 2800000, guid: fcc7799673fe3174cbe871a309ef4f36, type: 3}
+  - {fileID: 2800000, guid: 5a404ae4dc9454948814c54b897a4cb0, type: 3}
+  - {fileID: 2800000, guid: 964fd0d7297b7a3499f0c314f7d912c6, type: 3}
+  - {fileID: 2800000, guid: 3ca43fd590e85c943924f7a56b6ef046, type: 3}
+  - {fileID: 2800000, guid: 6735761b31d80f141bbd3a462c970267, type: 3}
+  enemyMap:
+  - {fileID: 2800000, guid: f85552aac25492e4f9b765c5a9623708, type: 3}
+  - {fileID: 2800000, guid: 6daee2f76763b5247b1cbd5d129be5d1, type: 3}
+  - {fileID: 2800000, guid: b92b904ceecdc9441802bbc9211e97cb, type: 3}
+  - {fileID: 2800000, guid: 5e2cb18f4f141104abeadd919fa14b85, type: 3}
+  - {fileID: 2800000, guid: b82de747c8165bd4e874461a6b46afd7, type: 3}
+  - {fileID: 2800000, guid: d33bc3c410be10a4b9db3f0bf7099b62, type: 3}
+  - {fileID: 2800000, guid: 5cb779a3a89bf41429a89fdc7c6445b2, type: 3}
+  - {fileID: 2800000, guid: 94c9cc3c66c6e0142b19df3324d46fc6, type: 3}
+  - {fileID: 2800000, guid: 7584ff115a877ee499d9ab209f728838, type: 3}
+  - {fileID: 2800000, guid: f33a151b762c3d742b2985dfafbc686d, type: 3}
+  colorMappings:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 9108717520876737158, guid: 452b649f075306342ab2e06d4d482879,
+      type: 3}
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: 6de836aa1a051714185b66fbd74983e5,
+      type: 3}
+  - color: {r: 1, g: 1, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: 24a19d157aa408447bceaf70811aee0e,
+      type: 3}
+  - color: {r: 0, g: 1, b: 1, a: 1}
+    prefab: {fileID: 6918408471230600782, guid: 68aef288110cdce40aeba1deda282f57,
+      type: 3}
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    prefab: {fileID: 9105682800218981920, guid: 9572ef8c10701fd47a01f157447154c3,
+      type: 3}
+  colorMappings2:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 9108717520876737158, guid: 31b812aefc03ee94aba802322cc4bad4,
+      type: 3}
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: eff13419f293ad54d8aef4cc6eaac7e2,
+      type: 3}
+  - color: {r: 1, g: 1, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: 4149b79259ecabe47b9d6f23e6ab4bc6,
+      type: 3}
+  - color: {r: 0, g: 1, b: 1, a: 1}
+    prefab: {fileID: 6918408471230600782, guid: 68aef288110cdce40aeba1deda282f57,
+      type: 3}
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    prefab: {fileID: 9105682800218981920, guid: 9572ef8c10701fd47a01f157447154c3,
+      type: 3}
+  colorMappings3:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 9108717520876737158, guid: e5fce22df99fddd45aa1e7ba5f0db22b,
+      type: 3}
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: 315ecf256ae88284fbaf6b0aeaeedfd4,
+      type: 3}
+  - color: {r: 1, g: 1, b: 0, a: 1}
+    prefab: {fileID: 1526187039282234919, guid: 88695bba4f6ce5640baa37fd43ee5626,
+      type: 3}
+  - color: {r: 0, g: 1, b: 1, a: 1}
+    prefab: {fileID: 6918408471230600782, guid: 68aef288110cdce40aeba1deda282f57,
+      type: 3}
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    prefab: {fileID: 9105682800218981920, guid: 9572ef8c10701fd47a01f157447154c3,
+      type: 3}
+  shop: {fileID: 0}
+  stepMana: {fileID: 0}
+--- !u!114 &1144819955184177107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144819955184177068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0ba95a1d14ffd4780af2b8c5f5cb46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapNum: 0
+  enemyMap:
+  - {fileID: 2800000, guid: f85552aac25492e4f9b765c5a9623708, type: 3}
+  - {fileID: 2800000, guid: 6daee2f76763b5247b1cbd5d129be5d1, type: 3}
+  - {fileID: 2800000, guid: b92b904ceecdc9441802bbc9211e97cb, type: 3}
+  - {fileID: 2800000, guid: 5e2cb18f4f141104abeadd919fa14b85, type: 3}
+  - {fileID: 2800000, guid: b82de747c8165bd4e874461a6b46afd7, type: 3}
+  - {fileID: 2800000, guid: d33bc3c410be10a4b9db3f0bf7099b62, type: 3}
+  - {fileID: 2800000, guid: 5cb779a3a89bf41429a89fdc7c6445b2, type: 3}
+  - {fileID: 2800000, guid: 94c9cc3c66c6e0142b19df3324d46fc6, type: 3}
+  - {fileID: 2800000, guid: 7584ff115a877ee499d9ab209f728838, type: 3}
+  - {fileID: 2800000, guid: f33a151b762c3d742b2985dfafbc686d, type: 3}
+  colorEnemyMappings:
+  - color: {r: 0, g: 0, b: 1, a: 1}
+    prefab: {fileID: 1669290243158774295, guid: 87c281982d906b843ad78c1f9de881cf,
+      type: 3}
+  - color: {r: 1, g: 0, b: 1, a: 1}
+    prefab: {fileID: 3892232918044427993, guid: d9d47f816b61c2c44a0e184fc4f6f7e4,
+      type: 3}
+  colorEnemyMappings2:
+  - color: {r: 0, g: 0, b: 1, a: 1}
+    prefab: {fileID: 4579500753521667296, guid: 5bf8dd9bd3a9f5f4196bafddda272c9b,
+      type: 3}
+  - color: {r: 1, g: 0, b: 1, a: 1}
+    prefab: {fileID: 4677811785935666651, guid: 67a1347aca1d1cc4293e746d25567599,
+      type: 3}
+  colorEnemyMappings3:
+  - color: {r: 0, g: 0, b: 1, a: 1}
+    prefab: {fileID: 6927357906404259127, guid: 645a4d2517e81f148a684bb593b5b87c,
+      type: 3}
+  - color: {r: 1, g: 0, b: 1, a: 1}
+    prefab: {fileID: 8068925805414331522, guid: b9516c6445ff57a4c95dfe8b64ddf391,
+      type: 3}
+  realNum: 0
